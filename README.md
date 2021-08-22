@@ -1,7 +1,6 @@
 # Periscope
 Periscope is a protocol that allows for tunneling of internet traffic between two hosts over a stream of micro-transactions that are embedded with data. The Periscope protocol has clients for two different types of hosts: Submarine nodes wishing to tunnel their internet traffic, as well as Periscope nodes who offer tunneling services.
-The project in front of you serves as a demo implementation. Please use testnet or local testbeds only, avoid the real Lightning Network as it could result in a loss of funds.
-
+The project in front of you serves as a demo implementation. Please use testnet or local testbeds only, avoid the real Lightning Network as it could result in a loss of funds. The root directory contains a Polar testbed as well as a script that can be used for benchmarking performance.
 
 ## Setup and Installation
 (Taken from https://github.com/lightningnetwork/lnd/blob/master/docs/grpc/python.md)
