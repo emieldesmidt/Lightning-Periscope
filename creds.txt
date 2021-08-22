@@ -1,0 +1,1 @@
+name,/path/to/tls.cert,/path/to/admin.macaroon,public_key,lnd_port
