@@ -4,6 +4,7 @@ The project in front of you serves as a demo implementation. Please use testnet 
 
 
 ## Setup and Installation
+(Taken from https://github.com/lightningnetwork/lnd/blob/master/docs/grpc/python.md)
 
 LND uses the gRPC protocol for communication with clients like lncli. gRPC is based on protocol buffers and as such, you will need to compile the lnd protofile in Python before you can use it to communicate with lnd.
 

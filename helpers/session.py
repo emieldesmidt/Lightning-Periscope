@@ -11,8 +11,8 @@ from google.protobuf.json_format import MessageToJson
 
 import router_pb2 as routerrpc
 import router_pb2_grpc as routerstub
-import rpc_pb2 as ln
-import rpc_pb2_grpc as lnrpc
+import lightning_pb2 as ln
+import lightning_pb2_grpc as lnrpc
 from helpers.crypt import Crypt
 from helpers.logger import Logger
 

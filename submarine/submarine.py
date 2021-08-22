@@ -223,6 +223,6 @@ with open('../creds.txt') as credentials:
 
 # Select the current node and extract the pk of the periscope node
 node = nodes['carol']
-target_pk = nodes['alice']['pk'] #"02b13dc721458c5d795d9ad5b9598d2399fe8e1c00251bdf1d21d16ff309e40178"
+target_pk = nodes['alice']['pk']
 
 sub = Submarine(node, target_pk)
