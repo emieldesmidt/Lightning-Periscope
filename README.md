@@ -33,7 +33,7 @@ LND uses the gRPC protocol for communication with clients like lncli. gRPC is ba
     ```
 6. Compile the proto file
     ```shell
-    lnd ⛰  python -m  -m grpc_tools.protoc --proto_path=./googleapis:. --python_out=. --grpc_python_out=. rpc.proto
+    lnd ⛰  python -m grpc_tools.protoc --proto_path=./googleapis:. --python_out=. --grpc_python_out=. rpc.proto
     ```
 
 After following these steps, two files `rpc_pb2.py` and `rpc_pb2_grpc.py` will be generated. We also need router functionality; you need to run the following two
